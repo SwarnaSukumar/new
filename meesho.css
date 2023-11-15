@@ -1,0 +1,136 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+  font-stretch: narrower;
+  letter-spacing: 0.5px;
+}
+nav{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-top: 12px;
+}
+nav .down{
+  display: flex;
+
+}
+nav .down i{
+  margin-inline: 11px;
+  margin-top: 6px;
+}
+nav img{
+  width: 13%;
+  height: 70px;
+  margin-top: -5px;
+  margin-left: -95px;
+}
+nav input{
+  width: 300px;
+  height: 40px;
+  outline: none;
+}
+.nav2{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  border: 1px solid rgb(234, 230, 231);
+  border-left: none;
+  border-right: none;
+  padding: 20px;
+  margin-top: 2px;
+  font-weight: 300;
+
+}
+.nav2 p:hover{
+  font-weight: bold;
+  color: rgb(133, 12, 102);
+  cursor: pointer;
+
+}
+.main{
+  display: flex;
+  justify-content: center;
+
+  margin-top: 40px;
+  
+
+}
+.main .text{
+  width: 500px;
+  background-color: rgb(245, 241, 241);
+
+}
+.main .text h1{
+  font-size: 40px;
+  margin-top: 26px;
+  margin-left:10px;
+}
+.main .text .txt{
+
+  margin-top: 50px;
+  display:flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+.main .text .txt h2{
+  margin-inline: 11px;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.main .text button{
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 40px;
+  color: white;
+  background-color: rgb(133, 12, 102);
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+}
+.top h1{
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+}
+.top .fs{
+  display: flex;
+  justify-content: center;
+ 
+}
+.top .fs img{
+  width: 20%;
+  padding: 5px;
+  cursor: pointer;
+
+}
+.sell h2{
+  color: rgb(46, 172, 223);
+  transform: translate(800px,130px);
+  font-size:xx-large;
+}
+.sell img{
+  width: 1200px;
+  margin-left: 86px;
+  margin-top: -50px;
+}
+.sell h1{
+  color: rgb(133, 12, 102);
+  transform: translate(600px,150px);
+  font-size: 50px;
+}
+.footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex: 1;
+  margin-top: 44px;
+  padding: 50px;
+  background-color: rgb(248, 244, 244);
+}
+.footer .list{
+ flex: 1;
+ 
+}
